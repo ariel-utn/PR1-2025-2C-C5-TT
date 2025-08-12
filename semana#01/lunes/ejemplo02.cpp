@@ -6,6 +6,7 @@ int main(){
     /// DECLARACION DE VARIABLES e INICIALIZACION
     /// RESERVO ESPACIO DE MEMORIA
     /// tipo_dato nombre_variable
+
     int entero = 5;
     float flotante = 7.8;
     char caracter = 'B';
@@ -14,6 +15,7 @@ int main(){
 
     /// MUESTRO POR PANTALLA EN CONTENIDO
     /// DE CADA VAIABLE
+
     cout << "Entero: " << entero << endl;
     /*
     cout << "Flotante: " << flotante << endl;
