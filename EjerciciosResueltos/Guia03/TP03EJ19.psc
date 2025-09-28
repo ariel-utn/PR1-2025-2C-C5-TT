@@ -1,0 +1,22 @@
+Algoritmo TP03EJ19
+	CEROS_CONSECUTIVOS = 0
+	CANTIDAD_TERNAS = 0
+	CANTIDAD_POSITIVOS = 0
+	Mientras CANTIDAD_POSITIVOS < 2 Hacer
+		Leer N
+		Si N > 0 Entonces
+			CANTIDAD_POSITIVOS = CANTIDAD_POSITIVOS+1
+		SiNo
+			CANTIDAD_POSITIVOS = 0
+		FinSi
+		Si N==0 Entonces
+			CEROS_CONSECUTIVOS = CEROS_CONSECUTIVOS+1
+		SiNo
+			CEROS_CONSECUTIVOS = 0
+		FinSi
+		Si CEROS_CONSECUTIVOS==3 Entonces
+			CANTIDAD_TERNAS = CANTIDAD_TERNAS+1
+		FinSi
+	FinMientras
+	Escribir "Cantidad de ternas de ceros consecutivos: ", CANTIDAD_TERNAS
+FinAlgoritmo
